@@ -1,0 +1,8 @@
+{
+  "label": "Problem-thought-code translation",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This set of articles tries to help you develop the fundamental skills of problem solving with programming. When you face a programming problem, how do you compare it with the primitives a language provides and develop your solution."
+  }
+}
