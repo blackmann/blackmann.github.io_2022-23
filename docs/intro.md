@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Curious or have interest?
+# Welcome, may you find peace!
 

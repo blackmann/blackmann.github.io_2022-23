@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -56,4 +58,66 @@ html[data-theme='dark'] {
 
 .divide {
   border-top: 1px solid #eee;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.menu__caret::before {
+  transform: rotate(180deg) scale(0.6);
+}
+
+.menu__list-item--collapsed .menu__link--sublist:after,
+.menu__list-item--collapsed .menu__caret:before {
+  transform: rotateZ(90deg) scale(0.6);
+}
+
+.doc-link {
+  display: flex;
+  padding: 0.5rem 1rem;
+  color: var(--ifm-body-color);
+  border-bottom: 1px solid rgba(#aaa, 0.4);
+
+  &:not(:last-child) {
+  }
+
+  .material-symbols-outlined {
+    margin-right: 1rem;
+    color: #888;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  div {
+    display: block;
+    min-width: 0;
+  }
+
+  .sub-title {
+    margin: 0;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: var(--docusaurus-highlighted-code-line-bg);
+  }
+}
+
+.navbar-sidebar__close, .navbar__toggle {
+  svg {
+    width: 14px
+  }
 }

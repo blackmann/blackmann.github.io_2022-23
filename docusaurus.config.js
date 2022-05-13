@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -26,7 +26,16 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-SB4PQVZYY0',
+        anonymizeIP: true,
+      }
+    ],
+  ],
   presets: [
     [
       'classic',
@@ -54,7 +63,7 @@ const config = {
   ],
 
   themeConfig:
-  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: 'Not Gr / blackmann',
@@ -65,12 +74,12 @@ const config = {
             position: 'left',
             label: 'Notes',
           },
-          {to: '/blog', label: 'Thoughts', position: 'left'},
+          { to: '/blog', label: 'Thoughts', position: 'left' },
           {
             href: 'https://github.com/blackmann',
             label: 'GitHub',
             position: 'right',
-            'aria-label': 'My repositories'
+            'aria-label': 'My repositories',
           },
         ],
       },
@@ -78,14 +87,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Today\'s byte',
+            title: "Today's byte",
             items: [
               {
                 html: `
             <p>Good thing about standardization is that we unscrew everything in the same direction</p>
-            `
-              }
-            ]
+            `,
+              },
+            ],
           },
           {},
           {
@@ -115,10 +124,10 @@ const config = {
               {
                 label: 'Thoughts',
                 to: '/blog',
-              }
+              },
             ],
           },
-          {}
+          {},
         ],
         // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
@@ -127,6 +136,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config
