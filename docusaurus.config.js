@@ -35,6 +35,14 @@ const config = {
         anonymizeIP: true,
       }
     ],
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+      },
+    ],
   ],
   presets: [
     [
@@ -70,9 +78,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'notes/intro',
             position: 'left',
             label: 'Notes',
+          },
+          {
+            type: 'doc',
+            docId: 'rnds/intro',
+            position: 'left',
+            label: 'R&Ds',
           },
           { to: '/blog', label: 'Thoughts', position: 'left' },
           {
@@ -119,11 +133,15 @@ const config = {
             items: [
               {
                 label: 'Notes',
-                to: '/docs/intro',
+                to: '/docs/notes',
               },
               {
                 label: 'Thoughts',
                 to: '/blog',
+              },
+              {
+                label: 'Research + Development',
+                to: '/docs/rnds',
               },
             ],
           },
