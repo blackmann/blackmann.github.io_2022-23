@@ -1,0 +1,29 @@
+---
+sidebar_position: 2
+---
+
+import DonutsGalaxy from '../../src/components/DonutsGalaxy/DonutsGalaxy'
+
+# Donuts Galaxy
+
+This experiment is an attempt to clone [ilithya.rocks](https://www.ilithya.rocks) after completing the
+first chapter of threejs journey by [@bruno_simon](https://twitter.com/bruno_simon)
+
+<DonutsGalaxy />
+
+### Challenges
+
+Some challenges I faced and how I solved them:
+
+1. **Scene background**: The texture was made in Adobe illustrator, placing the triangle roughly at the center of the square.
+  Then setting it up like this:
+
+  ```javascript
+  const textureLoader = new TextureLoader()
+  textureLoader.load('/img/donut-galaxy-bg-texture.jpg', (texture) => {
+    texture.wrapS = RepeatWrapping
+    texture.wrapT = RepeatWrapping
+    texture.repeat.set(21, 21)
+    scene.background = texture
+  })
+  ```
