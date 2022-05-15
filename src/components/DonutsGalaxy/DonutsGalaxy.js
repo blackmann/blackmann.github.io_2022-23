@@ -17,10 +17,18 @@ import { FontLoader } from 'three/examples/jsm/loaders/FontLoader'
 // I'm relying on the canvas container to be able to recalculate the
 // canvas size on widow resize
 function setUp(canvas, canvasContainer) {
+  const size = {
+    width: 0,
+    height: 0
+  }
+
   function resizeCanvas() {
     const { width } = canvasContainer.getBoundingClientRect()
 
     const height = width * (3 / 4)
+    size.width = width
+    size.height = height
+    renderer.setPixelRatio(Math.min(2, window.devicePixelRatio))
     renderer.setSize(width, height)
 
     camera.aspect = width / height
@@ -28,8 +36,8 @@ function setUp(canvas, canvasContainer) {
   }
 
   const mouse = {
-    x: 0,
-    y: 0,
+    dx: 0,
+    dy: 0
   }
 
   const scene = new Scene()
@@ -89,9 +97,7 @@ function setUp(canvas, canvasContainer) {
 
   const renderer = new WebGLRenderer({ canvas })
 
-  const { height, width } = canvas.getBoundingClientRect()
-  renderer.setSize(width, height)
-  renderer.setPixelRatio(Math.min(2, window.devicePixelRatio))
+  resizeCanvas()
 
   const controls = new OrbitControls(camera, canvas)
   controls.enableDamping = true
@@ -99,9 +105,16 @@ function setUp(canvas, canvasContainer) {
   controls.maxDistance = 10
   controls.maxPolarAngle = Math.PI * 0.8
   controls.minPolarAngle = 0.3
+  controls.autoRotate = true
 
   function tick() {
+    camera.position.x = mouse.dx * 10;
+    camera.position.y = mouse.dy * 10;
+
+    camera.lookAt(scene.position)
+
     controls.update()
+
     renderer.render(scene, camera)
 
     window.requestAnimationFrame(tick)
@@ -110,10 +123,12 @@ function setUp(canvas, canvasContainer) {
   tick()
 
   function onMouseMove(event) {
+    mouse.dx = event.offsetX / size.width * 0.5
+    mouse.dy = - event.offsetY / size.height * 0.5
   }
 
   window.addEventListener('resize', resizeCanvas)
-  window.addEventListener('pointermove', onMouseMove)
+  canvas.addEventListener('pointermove', onMouseMove)
 
   return function () {
     window.removeEventListener('resize', resizeCanvas)
