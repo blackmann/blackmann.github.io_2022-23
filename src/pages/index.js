@@ -25,10 +25,9 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`Home | ${siteConfig.title}`}
+      title="Home"
       description="Javascript and Go developer"
     >
       <HomepageHeader />
