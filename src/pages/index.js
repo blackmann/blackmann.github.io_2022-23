@@ -35,7 +35,7 @@ export default function Home() {
       <main>
         <div className="container">
           <section>
-            <div className="row margin-top--xl padding-vert--lg divide">
+            <div className="row margin-top--xl padding-vert--xl divide">
               <div className="col col--4">
                 <h2 className="home-title">Spotlight</h2>
               </div>
@@ -208,10 +208,109 @@ export default function Home() {
                 <p className="margin-bottom--none" style={{ color: '#888' }}>
                   <sup>1</sup> I tried to learn Rust 🦀. Oh boy, sh*t is crazy.
                   Perhaps a comeback! But I managed to create static{' '}
-                  <a href="https://github.com/blackmann/">site generator</a>{' '}
+                  <a href="https://github.com/blackmann/home-archive-2022-01/tree/master/tools/myjekyllripoff">
+                    site generator
+                  </a>{' '}
                   (think Jekyll) for my old website with Rust.
                 </p>
               </footer>
+            </div>
+          </div>
+
+          <div className="row divide margin-top--xl padding-top--xl">
+            <div className="col col--4">
+              <h2>Recents</h2>
+            </div>
+            <div className="col col--8">
+              <div className="row">
+                <div className="col col--6">
+                  <img
+                    src="/img/donut-galaxy.gif"
+                    alt="Donut Galaxy"
+                    loading="lazy"
+                  />
+                  <p>R&D: Donuts Galaxy</p>
+                  <p style={{ color: '#888' }}>
+                    An attempt to clone{' '}
+                    <a href="https://ilithya.rocks">ilithya.rocks</a> homepage
+                    after completing the first chapter of threejs journey
+                    course.
+                  </p>
+
+                  <p>
+                    <a href="/docs/rnds/donuts-galaxy">Details + Interact</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row margin-top--xl padding-vert--xl divide">
+            <div className="col col--4">
+              <h2>I wish to…</h2>
+            </div>
+            <div className="col col--8">
+              <div className="row">
+                <div className="col col--6">
+                  <h3 style={{ color: '#888' }}>Meet</h3>
+
+                  <ul>
+                    {[
+                      'Bill Gates',
+                      'Kylian Mbappe',
+                      'Christiano Ronaldo',
+                      'Lil Wayne',
+                      'Drake',
+                    ].map((person) => (
+                      <li key={person}>
+                        <p className="p-large margin-bottom--none">{person}</p>
+                      </li>
+                    ))}
+
+                    <li>
+                      <p className="p-large margin-bottom--none t-gray">
+                        <s>Grey</s>
+                      </p>
+                    </li>
+
+                    {['Bob Odenkirk (Saul Goodman)'].map((person) => (
+                      <li key={person}>
+                        <p className="p-large margin-bottom--none">{person}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="col col--6">
+                  <h3 style={{ color: '#888' }}>Visit</h3>
+                  <ul>
+                    {[
+                      'Northern Region (Ghana)',
+                      'Switzerland',
+                      'Zanzibar',
+                      'United States',
+                      'Apple Headquarters',
+                    ].map((person) => (
+                      <li key={person}>
+                        <p className="p-large margin-bottom--none">{person}</p>
+                      </li>
+                    ))}
+                  </ul>
+                  <h3 style={{ color: '#888' }}>Try</h3>
+                  <ul>
+                    {[
+                      'Skateboarding 🛹',
+                      'Basketball',
+                      'Boxing 🥊',
+                      'Snowboarding ⛷',
+                      'Conference Speaking',
+                    ].map((person) => (
+                      <li key={person}>
+                        <p className="p-large margin-bottom--none">{person}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

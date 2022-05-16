@@ -39,6 +39,10 @@ html[data-theme='dark'] {
   background: #ffe39f;
 }
 
+main {
+  margin-bottom: 3rem;
+}
+
 .footer--dark {
   --ifm-footer-background-color: #232323;
 }
@@ -120,4 +124,8 @@ h1, h2, h3, h4, h5, h6 {
   svg {
     width: 14px
   }
+}
+
+.t-gray {
+  color: #888;
 }
