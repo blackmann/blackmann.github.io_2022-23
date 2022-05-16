@@ -35,11 +35,6 @@ function setUp(canvas, canvasContainer) {
     camera.updateProjectionMatrix()
   }
 
-  const mouse = {
-    dx: 0,
-    dy: 0
-  }
-
   const scene = new Scene()
 
   const textureLoader = new TextureLoader()
@@ -106,13 +101,10 @@ function setUp(canvas, canvasContainer) {
   controls.maxPolarAngle = Math.PI * 0.8
   controls.minPolarAngle = 0.3
   controls.autoRotate = true
+  controls.autoRotateSpeed = 0.7
+  controls.rotateSpeed = 0.1
 
   function tick() {
-    camera.position.x = mouse.dx * 10;
-    camera.position.y = mouse.dy * 10;
-
-    camera.lookAt(scene.position)
-
     controls.update()
 
     renderer.render(scene, camera)
@@ -122,17 +114,10 @@ function setUp(canvas, canvasContainer) {
 
   tick()
 
-  function onMouseMove(event) {
-    mouse.dx = event.offsetX / size.width * 0.5
-    mouse.dy = - event.offsetY / size.height * 0.5
-  }
-
   window.addEventListener('resize', resizeCanvas)
-  canvas.addEventListener('pointermove', onMouseMove)
 
   return function () {
     window.removeEventListener('resize', resizeCanvas)
-    window.removeEventListener('pointermove', onMouseMove)
   }
 }
 
