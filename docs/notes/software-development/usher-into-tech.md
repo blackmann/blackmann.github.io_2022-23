@@ -1,5 +1,6 @@
 ---
 sidebar_position: 0
+enable_comments: true
 ---
 
 # Let me plant a seed

@@ -92,19 +92,55 @@ Move on to [On or off? Booleans](on-or-off).
 
 ### Numbers
 
-Numbers need no introduction. We use it to count our birthday. It's how the price of our phone was expressed.
+Numbers need no introduction. We use it to count our birthdays. It's how the price of our phone was expressed.
 
 In addition to what you already know about numbers, in programming, numbers are basically grouped into _integers_ and _floats_.
-Integers do not have decimals places. Examples are 100, 4, -5, etc. 
-On the other hand, floats have decimal places. Examples are 50.04, -0.23, 6.0
+Integers do not have decimals places. Examples are `100`, `4`, `-5`, etc. 
+On the other hand, floats have decimal places. Examples are `50.04`, `-0.23`, `6.0`
 
 You can rely on your intuition to choose which type of number you want to use. 
 When dealing with item prices you may need to use floats. When dealing with the count of items you need to use integers.
 
+_As you already know, you can add, multiply, subtract and divide numbers; yes - in programming too_
+
 ### Strings
+
+Strings are a group of characters. Characters can be alphabets, numbers and symbols. Even emojis. 
+In programming, we can use strings to express words and sentences (or nothing). 
+Note however, programming languages require you to explicitly denote a string. 
+For example, to declare a string `Hello world!` in Javascript, you need to wrap the phrase in quotes (" or ').
+
+```javascript
+// The following are a valid strings
+"Hello world"
+'Greetings my friend'
+""
+"Hahahah 🤣"
+
+// You can assign them to a variable
+
+const greeting = "Greetings my friend!"
+const emptyString = ""
+
+console.log(greeting)
+
+// The following are invalid strings. Why? Remember variables?
+// The Javascript intepreter (and other languages) need a way to identify
+// variable names and keywords (read below) from strings.
+
+Hello world // language thinks Hello is a variable and world is also a variable
+happy function // language thinks happy is a variable and function is a keyword
+```
+
+In order not to confuse the interpreter or compiler, we need to be explicit in our intentions. 
+If we want strings, we just wrap them in quotes.
 
 ### Arrays
 
 ### Structs
 
 ### Loops
+
+### Keywords
+
+### Syntax
