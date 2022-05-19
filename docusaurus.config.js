@@ -82,10 +82,10 @@ const config = {
           },
           { to: '/blog', label: 'Thoughts', position: 'left' },
           {
-            href: 'https://github.com/blackmann',
+            href: 'https://github.com/blackmann/blackmann.github.io',
             label: 'GitHub',
             position: 'right',
-            'aria-label': 'My repositories',
+            'aria-label': 'Site\'s source',
           },
         ],
       },

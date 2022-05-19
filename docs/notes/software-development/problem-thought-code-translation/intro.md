@@ -144,3 +144,6 @@ If we want strings, we just wrap them in quotes.
 ### Keywords
 
 ### Syntax
+
+## Patterns
+

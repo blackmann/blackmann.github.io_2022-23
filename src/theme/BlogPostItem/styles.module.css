@@ -1,0 +1,25 @@
+.blogPostTitle {
+  font-size: 3rem;
+}
+
+.blogPostHeadline {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/**
+  Blog post title should be smaller on smaller devices
+**/
+@media (max-width: 576px) {
+  .blogPostTitle {
+    font-size: 2rem;
+  }
+}
+
+.blogPostData {
+  font-size: 0.9rem;
+}
+
+.blogPostDetailsFull {
+  flex-direction: column;
+}

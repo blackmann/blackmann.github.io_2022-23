@@ -1,3 +1,8 @@
-# Home v2022-02
+# blackmann.github.io
 
-Developed with Docusaurus
+Visit at https://degreat.co.uk 
+
+Made with React/Docusaurus
+
+![Snapshot](static/img/snapshot.png)
+
