@@ -66,7 +66,9 @@ export default function BlogPostItem(props) {
     >
       <header>
         <TitleHeading
-          className={isBlogPostPage ? styles.blogPostTitle : styles.blogPostHeadline}
+          className={
+            isBlogPostPage ? styles.blogPostTitle : styles.blogPostHeadline
+          }
           itemProp="headline"
         >
           {isBlogPostPage ? (
@@ -77,7 +79,11 @@ export default function BlogPostItem(props) {
             </Link>
           )}
         </TitleHeading>
-        <div className={clsx(styles.blogPostData, { 'margin-vert--md': isBlogPostPage })}>
+        <div
+          className={clsx(styles.blogPostData, {
+            'margin-vert--md': isBlogPostPage,
+          })}
+        >
           <time dateTime={date} itemProp="datePublished">
             {formattedDate}
           </time>
@@ -103,7 +109,7 @@ export default function BlogPostItem(props) {
 
       <div // This ID is used for the feed generation to locate the main content
         id={isBlogPostPage ? blogPostContainerID : undefined}
-        className="markdown"
+        className={clsx('markdown', {'margin-vert--md': !isBlogPostPage})}
         itemProp="articleBody"
       >
         <MDXContent>{children}</MDXContent>
