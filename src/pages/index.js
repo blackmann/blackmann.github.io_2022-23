@@ -10,7 +10,7 @@ function HomepageHeader() {
           <div className="col col--8">
             <h1 className="home-title">
               Javascript and Go developer leading{' '}
-              <a href="https://adeton.io">Adeton</a> and doing some open source
+              <a href="https://adeton.io" className="hover-underline">Adeton</a> and doing some open source
               stuff.
             </h1>
             <h1 className="home-title">
@@ -56,7 +56,7 @@ export default function Home() {
                     </p>
 
                     <p className="p-large">
-                      <a href="https://github.com/blackmann/go-gurl">
+                      <a className="hover-underline" href="https://github.com/blackmann/go-gurl">
                         blackmann/go-gurl
                       </a>
                     </p>
@@ -77,7 +77,7 @@ export default function Home() {
                     </p>
 
                     <p className="p-large">
-                      <a href="https://adeton.io">Visit homepage</a>
+                      <a className="hover-underline" href="https://adeton.io">Visit homepage</a>
                     </p>
                   </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
                     </p>
 
                     <p className="p-large">
-                      My <a href="https://patreon.com/degreat">Patreon</a>{' '}
+                      My <a className="hover-underline" href="https://patreon.com/degreat">Patreon</a>{' '}
                       memberships offers various packages for various levels of
                       interest.
                     </p>
@@ -237,7 +237,7 @@ export default function Home() {
                   </p>
 
                   <p>
-                    <a href="/docs/rnds/donuts-galaxy">Details + Interact</a>
+                    <a className="hover-underline" href="/docs/rnds/donuts-galaxy">Details + Interact</a>
                   </p>
                 </div>
               </div>

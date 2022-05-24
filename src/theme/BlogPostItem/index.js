@@ -109,10 +109,16 @@ export default function BlogPostItem(props) {
 
       <div // This ID is used for the feed generation to locate the main content
         id={isBlogPostPage ? blogPostContainerID : undefined}
-        className={clsx('markdown', {'margin-vert--md': !isBlogPostPage})}
+        className={clsx('markdown', { 'margin-vert--md': !isBlogPostPage })}
         itemProp="articleBody"
       >
         <MDXContent>{children}</MDXContent>
+
+        {!isBlogPostPage && truncated && (
+          <Link className={styles.moreLink} to={permalink}>
+            + more
+          </Link>
+        )}
       </div>
 
       {(tagsExists || truncated) && (

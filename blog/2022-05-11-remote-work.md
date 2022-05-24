@@ -7,7 +7,7 @@ tags: []
 Early 2020 I quit my on-site full-time developer role to become a freelancer.
 Freelancing is the closest to what remote work is about.
 Mid 2021, I applied and got into [Andela](https://andela.com) and was assigned my first contract.
-In this blog post I aim to share my experience and what it means for developers interested in remote/offshore
+In this blog post, I aim to share my experience and what it means for developers interested in remote/offshore
 opportunities.
 
 <!--truncate-->
@@ -15,7 +15,7 @@ opportunities.
 ## 2020
 
 This is when I went full-time freelancing.
-I was on a stable gig that lasted almost a year and also picked up couple of other short term gigs.
+I was on a stable gig that lasted almost a year and also picked up a couple of other short term gigs.
 Most of the time during this period I was shuffling through at most 2 gigs at the same time.
 Without revealing any specifics, I was basically doing fine financially, but I was hurting mentally.
 
@@ -38,12 +38,11 @@ Dealing with them was very overwhelming even though I was mostly educating and p
 ## 2021
 
 Part of this year's resolution was to quit freelancing, build and launch my startup ([Adeton](https://adeton.io)), then
-prepare for interview at Google.
+prepare to interview at Google.
 
 I lived off some savings during the first quarter while working on Adeton. I was beginning to run low on cash.
 So I was like _dammit_, I'm going to apply for [Andela](https://andela.com)<sup>2</sup> and hopefully get a fulltime job
-then
-prepare for Google later.
+then prepare for Google later.
 
 It was until over a month I got matched with a company.
 
@@ -76,7 +75,7 @@ Mostly because founders struggle to fund the business and lack proper management
 Also, there aren't a lot of companies that offer growth opportunities.
 
 Without the knowledge of remote work _and what it can offer like good working environment and networking opportunities_,
-you'll be left scrambling for next better option in your country which is just an iota of difference with the previous
+you'll be left scrambling for the next better option in your country which is just an iota of difference with the previous
 opportunity.
 
 Now, for a lot of us, we learned this trade by unconventional means. We can code, very well. Mostly from scratch.

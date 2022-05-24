@@ -7,6 +7,10 @@
   margin-bottom: 0;
 }
 
+.moreLink {
+  color: #888;
+}
+
 /**
   Blog post title should be smaller on smaller devices
 **/
