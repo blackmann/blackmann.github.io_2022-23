@@ -59,7 +59,7 @@ export default function BlogPostItem(props) {
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2'
   return (
     <article
-      className={!isBlogPostPage ? 'margin-bottom--xl' : undefined}
+      className={!isBlogPostPage ? 'margin-bottom--md' : undefined}
       itemProp="blogPost"
       itemScope
       itemType="http://schema.org/BlogPosting"

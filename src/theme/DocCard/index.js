@@ -78,7 +78,7 @@ function CardLink({ item }) {
   return (
     <Link href={item.href} className="doc-link">
       <span className="material-symbols-outlined">description</span>
-      <div>
+      <div style={{minWidth: 0}}>
         <h2>{item.label}</h2>
         <p className="sub-title text--truncate">{doc?.description}</p>
       </div>
