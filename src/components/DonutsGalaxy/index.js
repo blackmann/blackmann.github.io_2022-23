@@ -114,7 +114,7 @@ function setUp(canvas, canvasContainer) {
   }
 }
 
-export default function Index() {
+export default function DonutsGalaxy() {
   const canvas = React.useRef()
   const canvasContainer = React.useRef()
 

@@ -35,6 +35,26 @@ const config = {
         anonymizeIP: true,
       }
     ],
+    async function addCustomLoaders() {
+      return {
+        name: 'webpack-custom-loaders',
+        configureWebpack() {
+          return {
+            module: {
+              rules: [
+                {
+                  test: /\.(glsl|vs|fs|vert|frag)$/,
+                  use: [
+                    'raw-loader',
+                    'glslify-loader'
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
   ],
   presets: [
     [
