@@ -10,8 +10,10 @@ function HomepageHeader() {
           <div className="col col--8">
             <h1 className="home-title">
               Javascript and Go developer leading{' '}
-              <a href="https://adeton.io" className="hover-underline">Adeton</a> and doing some open source
-              stuff.
+              <a href="https://adeton.io" className="hover-underline">
+                Adeton
+              </a>{' '}
+              and doing some open source stuff.
             </h1>
             <h1 className="home-title">
               I sometimes create 3d artworks and play 🎮 FIFA a lot recently. My
@@ -26,10 +28,7 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout
-      title="Home"
-      description="Javascript and Go developer"
-    >
+    <Layout title="Home" description="Javascript and Go developer">
       <HomepageHeader />
       <main>
         <div className="container">
@@ -56,7 +55,10 @@ export default function Home() {
                     </p>
 
                     <p className="p-large">
-                      <a className="hover-underline" href="https://github.com/blackmann/go-gurl">
+                      <a
+                        className="hover-underline"
+                        href="https://github.com/blackmann/go-gurl"
+                      >
                         blackmann/go-gurl
                       </a>
                     </p>
@@ -77,7 +79,9 @@ export default function Home() {
                     </p>
 
                     <p className="p-large">
-                      <a className="hover-underline" href="https://adeton.io">Visit homepage</a>
+                      <a className="hover-underline" href="https://adeton.io">
+                        Visit homepage
+                      </a>
                     </p>
                   </div>
 
@@ -92,7 +96,13 @@ export default function Home() {
                     </p>
 
                     <p className="p-large">
-                      My <a className="hover-underline" href="https://patreon.com/degreat">Patreon</a>{' '}
+                      My{' '}
+                      <a
+                        className="hover-underline"
+                        href="https://patreon.com/degreat"
+                      >
+                        Patreon
+                      </a>{' '}
                       memberships offers various packages for various levels of
                       interest.
                     </p>
@@ -222,7 +232,7 @@ export default function Home() {
             </div>
             <div className="col col--8">
               <div className="row">
-                <div className="col col--6">
+                <div className="col col--6 margin-bottom--lg">
                   <img
                     src="/img/donut-galaxy.gif"
                     alt="Donut Galaxy"
@@ -237,7 +247,47 @@ export default function Home() {
                   </p>
 
                   <p>
-                    <a className="hover-underline" href="/docs/rnds/donuts-galaxy">Details + Interact</a>
+                    <a
+                      className="hover-underline"
+                      href="/docs/rnds/donuts-galaxy"
+                    >
+                      Details + Interact
+                    </a>
+                  </p>
+                </div>
+
+                <div className="col col--6 margin-bottom--lg">
+                  <img src="/img/ozark.jpg" alt="Ozark" loading="lazy" />
+                  <p>TV Show: Ozark</p>
+                  <p style={{ color: '#888' }}>
+                    Yerr, I'm done! I nominate this TV series as the one of the
+                    few best TV shows ever (👀 Breaking Bad). It's a 💯.
+                  </p>
+
+                  <p style={{ color: '#888' }}>
+                    Ruth Langmore was my favorite and Marty Byrd was some cool guy.
+                  </p>
+                </div>
+
+                <div className="col col--6">
+                  <video
+                    src="/videos/robo-out.mp4"
+                    loop
+                    autoPlay
+                    style={{ width: '100%' }}
+                  />
+                  <p>3D & Render: Robo Fight</p>
+                  <p style={{ color: '#888' }}>
+                    Bored Blender Render. Rigging done with Mixamo. How do you
+                    rate my lighting?
+                  </p>
+                  <p>
+                    <a
+                      className="hover-underline"
+                      href="https://www.youtube.com/shorts/49X3wNg-NM0"
+                    >
+                      → Youtube
+                    </a>
                   </p>
                 </div>
               </div>
