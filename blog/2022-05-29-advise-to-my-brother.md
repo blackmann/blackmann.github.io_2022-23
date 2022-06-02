@@ -73,6 +73,6 @@ and teachers, and he's going to be respected for that.
 That's it. I hope these seeds fell on fertile soil. 
 I've got high hopes for what/who he'll become after completing school. I wish him good luck.
 
-<hr />
+---
 
 <small><sup>1</sup> I vaguely remember he's called Prince.</small>
