@@ -6,7 +6,7 @@ tags: []
 
 As a freelancer working (solo mostly) on a number of gigs at the same time, the least interesting to do is to write
 tests. That discipline is not worth the investment. It's an MVP, needs to be ready in two or three months.
-How does automated tests save me time?
+How does automated tests save me time ⏰?
 
 <!-- truncate -->
 

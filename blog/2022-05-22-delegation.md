@@ -4,7 +4,7 @@ title: Delegation
 tags: []
 ---
 
-Save money or save time. You can't save both.
+Save money 💵 or save time. You can't save both.
 
 <!--truncate-->
 

@@ -5,14 +5,16 @@ slug: /setting-up-k8s-do
 
 # Setting up Kubernetes on Digital Ocean For Production
 
-After provisioning Kubernetes on DigitalOcean, it's not really clear what the next steps are. DigitalOcean already 
-shares a guide on how to set up [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-with-cert-manager-on-digitalocean-kubernetes).
-However, after trying to set up k8s on DO for production so many times, I've built enough understanding to derive a 
+After provisioning Kubernetes on DigitalOcean, it's not really clear what the next steps are. DigitalOcean already
+shares a guide on how to set
+up [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-with-cert-manager-on-digitalocean-kubernetes)
+.
+However, after trying to set up k8s on DO for production so many times, I've built enough understanding to derive a
 more straightforward approach (per my taste).
 
 This guide also considers that you use DigitalOcean's container registry.
 
-To organise the Kubernetes resources (yaml files, etc) we create while following this guide, 
+To organise the Kubernetes resources (yaml files, etc) we create while following this guide,
 create a folder called `devops` (for example) in your Documents or wherever you keep code.
 
 Let's get in.
@@ -48,21 +50,20 @@ ingress-nginx-controller-admission   ClusterIP      10.0.0.2        <none>      
 > You'll find the installation guide
 > here: [Ingress Nginx / Installation Guide](https://kubernetes.github.io/ingress-nginx/deploy/#digital-ocean)
 
-
 #### Set default ingress class
 
 We need to set the Nginx controller we just installed as the default ingress class<sup>1</sup>.
 
-Run the following command 
+Run the following command
 
 ```bash
 k edit -n ingress-nginx ingressclass nginx
 ```
 
-This will open the nginx `IngressClass` resource in a vim (terminal) editor. 
-Now add the following highlighted annotation. 
+This will open the nginx `IngressClass` resource in a vim (terminal) editor.
+Now add the following highlighted annotation.
 
-Note that, `metadata.annotations` may already have an entry (`kubectl.kubernetes.io/last-applied-configuration`). 
+Note that, `metadata.annotations` may already have an entry (`kubectl.kubernetes.io/last-applied-configuration`).
 Just add this new entry below it. Please follow the indentation.
 
 ```yaml {3}
@@ -191,18 +192,17 @@ That's it. Now we can make some deployments.
 
 ## Deploy
 
-Deployments normally refer to a combination of pod and replica set definitions in single file. 
-But I prefer to set up deployments as a combination of pod, replica set, service and ingress definitions in  a single
+Deployments normally refer to a combination of pod and replica set definitions in single file.
+But I prefer to set up deployments as a combination of pod, replica set, service and ingress definitions in a single
 file.
 
 ### Container Registry
 
-I use DigitalOcean's container registry to host my docker images. If this is the same for you, then you need add the 
+I use DigitalOcean's container registry to host my docker images. If this is the same for you, then you need add the
 `Secret` required to pull images from your registry.
 
-To do that, go to `Container Registry > Settings`. Then click "Edit" in the `DigitalOcean Kubernetes integration` 
+To do that, go to `Container Registry > Settings`. Then click "Edit" in the `DigitalOcean Kubernetes integration`
 section. Now select your k8s cluster and click "Save All".
-
 
 ### Resource File
 
@@ -296,16 +296,46 @@ Now run the follow command to deploy
 k apply -f deployment.yml
 ```
 
-You're done. Your pods will spawn. Cert-manager will request for certificate issuance from LetsEncrypt. 
+You're done. Your pods will spawn. Cert-manager will request for certificate issuance from LetsEncrypt.
 And in a matter of seconds your service will be ready for the world to access.
 
 Enjoy!
 
+## Pod-pod communication
+
+If you have services that may communicate with each other, you may experience an `ECONNRESET` error. The solution for
+this is to specify the hostname of the load balancer in the nginx service configuration.
+
+To do this, add an `A` record to your DNS record: hostname as `lb.example.com` and will direct to the IP address of the
+load balancer configured to your cluster.
+
+Then edit the `ingress-nginx-controller`:
+
+```bash
+k edit -n ingress-nginx svc ingress-nginx-controller
+```
+
+Add the following config under `metadata.annotations`
+
+```yml {3}
+metadata:
+  annotations:
+    service.beta.kubernetes.io/do-loadbalancer-hostname: "lb.example.com"
+```
+
+And save. That's it.
+
 ---
 
-<small><sup>1</sup> Reason can be found here: <a href="https://kubernetes.github.io/ingress-nginx/#what-is-an-ingressclass-and-why-is-it-important-for-users-of-ingress-nginx-controller-now">https://kubernetes.github.io/ingress-nginx/#what-is-an-ingressclass-and-why-is-it-important-for-users-of-ingress-nginx-controller-now</a></small>
+<ol class="footnotes">
+<li>
+Reason can be found
+here: <a href="https://kubernetes.github.io/ingress-nginx/#what-is-an-ingressclass-and-why-is-it-important-for-users-of-ingress-nginx-controller-now">https://kubernetes.github.io/ingress-nginx/#what-is-an-ingressclass-and-why-is-it-important-for-users-of-ingress-nginx-controller-now</a>
+</li>
 
-<br />
+<li>
+Read a little more
+here: <a href="https://cert-manager.io/docs/configuration/acme/#solving-challenges">https://cert-manager.io/docs/configuration/acme/#solving-challenges</a>
+</li>
+</ol>
 
-<small><sup>2</sup> Read a little more
-here: <a href="https://cert-manager.io/docs/configuration/acme/#solving-challenges">https://cert-manager.io/docs/configuration/acme/#solving-challenges</a></small>
