@@ -32,6 +32,7 @@ You've got to help him pick a side.
 Without thinking much, this is easy. There are two options:
 
 - I can use my experience and benefits as a software developer to make him choose what his dad is offering
+
 - I can use the passion that drove me into tech as an example for Nick to stick with his
 
 In either cases, there's bias. Bias from my own experiences. We (or I) can only speak of the world as we perceive it.
