@@ -9,15 +9,14 @@ function HomepageHeader() {
         <div className="row">
           <div className="col col--8">
             <h1 className="home-title">
-              Javascript and Go developer leading{' '}
-              <a href="https://adeton.io" className="hover-underline">
-                Adeton
-              </a>{' '}
-              and doing some open source stuff.
-            </h1>
-            <h1 className="home-title">
-              I sometimes create 3d artworks and play 🎮 FIFA a lot recently. My
-              dream is to be an inspiration to a lot of people in my country 🇬🇭.
+              Javascript developer creating magic with React ⚛️ doing some open
+              source stuff.
+              <br /> <br />
+              <span className="home-title__meta">
+                I sometimes create 3d artworks and play 🎮 FIFA a lot recently.
+                My dream is to be an inspiration to a lot of people in my
+                country 🇬🇭.
+              </span>
             </h1>
           </div>
         </div>
@@ -82,29 +81,6 @@ export default function Home() {
                       <a className="hover-underline" href="https://adeton.io">
                         Visit homepage
                       </a>
-                    </p>
-                  </div>
-
-                  <div className="col col--6">
-                    <h3 className="sub-title">Patreon</h3>
-
-                    <p className="p-large">
-                      Are you looking to transition from another discipline into
-                      software development? Are you already enrolled in tertiary
-                      education but want to engage in a beneficial
-                      extracurricular activity?
-                    </p>
-
-                    <p className="p-large">
-                      My{' '}
-                      <a
-                        className="hover-underline"
-                        href="https://patreon.com/degreat"
-                      >
-                        Patreon
-                      </a>{' '}
-                      memberships offers various packages for various levels of
-                      interest.
                     </p>
                   </div>
                 </div>
@@ -265,7 +241,8 @@ export default function Home() {
                   </p>
 
                   <p style={{ color: '#888' }}>
-                    Ruth Langmore was my favorite and Marty Byrd was some cool guy.
+                    Ruth Langmore was my favorite and Marty Byrd was some cool
+                    guy.
                   </p>
                 </div>
 

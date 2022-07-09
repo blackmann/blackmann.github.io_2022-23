@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
 
 /**
  * Any CSS included here will be global. The classic template
@@ -16,10 +17,14 @@
   --ifm-color-primary-lighter: #868ff6;
   --ifm-color-primary-lightest: #b4baf9;
   --ifm-code-font-size: 10pt;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
   --ifm-heading-font-family: 'Helvetica Neue', Arial, sans-serif;
   --ifm-font-family-base: 'Helvetica Neue', Arial, sans-serif;
+
+  --ifm-toc-border-color: transparent;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --selection-background:#ffe39f;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -32,11 +37,17 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #f0f2fe;
   --ifm-color-primary-lightest: #ffffff;
   --ifm-background-color: #232323;
+  --ifm-toc-border-color: transparent;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --selection-background: var(--ifm-color-gray-700);
+
+  transition: background-color 240ms ease-out;
 }
 
 ::selection {
-  background: #ffe39f;
+  background: var(--selection-background);
 }
 
 a.hover-underline {
@@ -99,8 +110,13 @@ p {
   font-size: 1.1rem;
 }
 
-h1, h2, h3 {
-  font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.footer__title {
+  font-weight: 500;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .menu__caret::before {
@@ -180,4 +196,12 @@ article[itemprop="blogPost"] {
     list-style: disc;
     padding-left: 2rem;
   }
+}
+
+.pagination-nav__link {
+  border: none;
+}
+
+.pagination-nav__link--next .pagination-nav__label::after {
+  content: '';
 }
