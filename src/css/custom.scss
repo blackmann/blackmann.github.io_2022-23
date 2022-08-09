@@ -17,8 +17,8 @@
   --ifm-color-primary-lighter: #868ff6;
   --ifm-color-primary-lightest: #b4baf9;
   --ifm-code-font-size: 10pt;
-  --ifm-heading-font-family: 'Helvetica Neue', Arial, sans-serif;
-  --ifm-font-family-base: 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', Arial, sans-serif;
+  --ifm-font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --ifm-toc-border-color: transparent;
 
@@ -85,6 +85,7 @@ blockquote {
 }
 
 .home-title {
+  font-family: var(--ifm-font-family-base);
   font-weight: 400;
 }
 
@@ -112,7 +113,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  font-family: 'Space Grotesk', sans-serif;
 }
 .footer__title {
   font-weight: 500;
@@ -200,6 +200,8 @@ article[itemprop="blogPost"] {
 
 .pagination-nav__link {
   border: none;
+  border-top: 1px solid var(--ifm-color-gray-400);
+  border-radius: 0;
 }
 
 .pagination-nav__link--next .pagination-nav__label::after {

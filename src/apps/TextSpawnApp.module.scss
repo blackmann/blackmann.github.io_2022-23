@@ -1,0 +1,42 @@
+.EnterButton {
+  font-size: 3rem;
+  color: var(--ifm-color-content-secondary);
+  background-color: transparent;
+  border: none;
+  aspect-ratio: 1;
+  width: 100px;
+  height: 100px;
+  transition: background-color 240ms ease-out;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.EnterButtonWrapper {
+  text-align: right;
+}
+
+html[data-theme="dark"] {
+  .EnterButton:hover {
+    background-color: #444;
+  }
+}
+
+.InputField {
+}
+
+.TextSpawnApp {
+  font-size: 3rem;
+}
+
+.TextSpawnInput {
+  background-color: transparent;
+  border: none;
+  color: var(--ifm-font-color-base);
+  width: 100%;
+  font-size: 3rem;
+  outline: none;
+  padding: 0.5rem 0;
+}

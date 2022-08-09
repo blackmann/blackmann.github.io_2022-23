@@ -34,7 +34,7 @@ function setUp(canvas, canvasContainer) {
   textureLoader.load('/img/donut-galaxy-bg-texture.jpg', (texture) => {
     texture.wrapS = RepeatWrapping
     texture.wrapT = RepeatWrapping
-    texture.repeat.set(21, 21)
+    texture.repeat.set(40, 40)
     scene.background = texture
   })
 

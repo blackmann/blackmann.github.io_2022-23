@@ -1,0 +1,40 @@
+.TextSpawnCharacter {
+  --animation-duration: 1.5s;
+
+  -webkit-animation: fade-in var(--animation-duration) ease-out;
+  -o-animation: fade-in var(--animation-duration) ease-out;
+  animation: fade-in var(--animation-duration) ease-out;
+  display: inline-block;
+  white-space: pre;
+}
+
+.DeadCharacter {
+  animation: fade-out-down 1s ease-in forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  30% {
+    transform: translateY(0px);
+  }
+
+  100%  {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out-down {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}

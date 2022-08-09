@@ -204,7 +204,7 @@ export default function Home() {
 
           <div className="row divide margin-top--xl padding-top--xl">
             <div className="col col--4">
-              <h2>Recents</h2>
+              <h2 className="home-title">Recents</h2>
             </div>
             <div className="col col--8">
               <div className="row">
@@ -273,7 +273,7 @@ export default function Home() {
 
           <div className="row margin-top--xl padding-vert--xl divide">
             <div className="col col--4">
-              <h2>I wish to…</h2>
+              <h2 className="home-title">I wish to…</h2>
             </div>
             <div className="col col--8">
               <div className="row">
