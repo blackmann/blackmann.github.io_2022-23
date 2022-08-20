@@ -88,6 +88,3 @@ advisor.
 Asking for support means you're convicted in your choice and any form of help can really push you farther ahead.
 If you don't believe in a choice you're about to make, who will? If you're not going to go with what's advised, why ask?
 If the advisor wouldn't be there while you go through it, what's the point?
-
-
----

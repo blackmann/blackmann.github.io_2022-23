@@ -198,6 +198,10 @@ article[itemprop="blogPost"] {
   }
 }
 
+article h1 {
+  font-size: 2rem;
+}
+
 .pagination-nav__link {
   border: none;
   border-top: 1px solid var(--ifm-color-gray-400);
