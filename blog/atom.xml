@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://degreat.co.uk/blog</id>
+    <title>Not Gr / blackmann Blog</title>
+    <updated>2022-07-03T21:55:58.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://degreat.co.uk/blog"/>
+    <subtitle>Not Gr / blackmann Blog</subtitle>
+    <icon>https://degreat.co.uk/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Programming is a creative skill]]></title>
+        <id>programming-is-a-creative-skill</id>
+        <link href="https://degreat.co.uk/blog/programming-is-a-creative-skill"/>
+        <updated>2022-07-03T21:55:58.000Z</updated>
+        <summary type="html"><![CDATA[I've seen a lot of absolute beginners struggle to find their bearings around programming.]]></summary>
+        <content type="html"><![CDATA[<p>I've seen a lot of absolute beginners struggle to find their bearings around programming.
+There's so much noise (from lots of YouTube tutorial to Twitter threads).
+But the pattern they're able to recognize from all these are that people know what they're doing.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="the-cheat-code">The cheat code<a class="hash-link" href="#the-cheat-code" title="Direct link to heading">​</a></h2><p>It appears the people they look up to have understood the formula. They've figured out some cheat code.
+<em>"Look at how everything comes easy to them. Gods!"</em> Even as an experienced developer, I've had times like these
+when I watch people post and talk on advanced techniques.</p><p>I believe this is because behind every nice and perfectly put content, there's no tag like
+<code>10 failures, 4 misconceptions, 3 breaks</code>. There's simply the content.</p><p>Our mind is not in the business of worrying about that - only cares about becoming masters too.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="a-creative-skill">A creative skill<a class="hash-link" href="#a-creative-skill" title="Direct link to heading">​</a></h2><p>Let's do some exercises.</p><ol><li><p>Pick one of the best songs from one of your favorite artists. Do you think he/she came back from lunch one afternoon,
+went to the studio and created a bang?</p></li><li><p>How long do you think it took Da Vinci to paint the Mona Lisa? Why did it take that long to paint a portrait on such
+a small canvas? Wasn't he a master?</p></li></ol><h4 class="anchor anchorWithStickyNavbar_mojV" id="so-what-is-a-creative-skill">So what is a creative skill?<a class="hash-link" href="#so-what-is-a-creative-skill" title="Direct link to heading">​</a></h4><p>A creative skill is about creating a personalized version of some reality.
+This personal<em>ized</em> version only has vague ideas of how the original is made or looks like but
+not a complete a deviation from what it is.</p><p>This means that, if you used a lot of assumptions in creating this version, that's creative.</p><p>If you even modified the original idea by 1%, that's creative. The craziest form of creativity
+are those that combine a number of different <em>realities</em> (seemingly unrelated to each other) to create something that's
+still relatable.</p><blockquote><p>I doubt any creative artifact is 100% (or even 90%) original</p></blockquote><h4 class="anchor anchorWithStickyNavbar_mojV" id="whats-common-about-any-form-of-creative-skill">What's common about any form of creative skill?<a class="hash-link" href="#whats-common-about-any-form-of-creative-skill" title="Direct link to heading">​</a></h4><p>The answer is that, there's not a definitive way of getting everything done. Your favorite artist definitely has
+already created hundreds of songs before this. Shouldn't it be way easier to create bangers back-to-back with far less
+effort?</p><p>The answer is no. The idea is to create <!-- -->[new versions]<!-- --> of songs that wouldn't sound like something we've heard before.
+Surely, that must require some ingenuity and wouldn't use the exact composition as the last hit.</p><p>Contrast this with financial accounting, for example. It's simple, credit what comes in, debit what goes out.
+Yes, there'll be different forms transactions but there's a finite set of rules to follow. You can't choose to credit
+based on your feelings - you'll get into trouble.</p><blockquote><p>Freedom. That's what separates creative from non-creative skills.</p></blockquote><p>So what has all these blabbing got to do with programming?</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="programming">Programming<a class="hash-link" href="#programming" title="Direct link to heading">​</a></h2><p>How's programming a creative skill? Let's take messaging apps for example. I'm confident you can mention at least
+three different apps. Even though they all offer the basic functionalities of communicating with people (or bots), their
+respective creators tried to do or add something different. Something they think is cool or important or simply prefer.</p><p>Just like an artist will produce a song that millions of people will love, the same goes for an app.
+This custom version of an app will also be loved by many people.</p><p>Now this custom version doesn't have to be radically different. Sometimes, it can just be an addition of a single
+feature that the original idea may be lacking. This feature can be a selling point - one that a lot of people will
+be willing to switch over.</p><p>Understanding this is vital to keep you going as a beginner. I've had a lot of people complain to me about being
+confused on what the next steps after learning a language's basics are. The answer is simple, be creative.
+That tutorial you completed, do it again all by yourself. This time, do something different. Personalize it.</p><p>Change colors or layouts. Host it. Add a missing feature! That's basically it. This exercise is an attempt to test
+your understanding of the <em>vocabularies</em> you learn and to train your mind on how to use what you learn
+in different ways guided by your imagination.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="vocabularies">Vocabularies<a class="hash-link" href="#vocabularies" title="Direct link to heading">​</a></h2><p>Vocabularies in a natural language (like English) means words or combinations of words you can use to express thoughts.
+Being able to play with words while being able to express an idea clearly shows your mastery of the language.
+Let's take the phrase "he dropped on the floor like a sack of potatoes". A non-English (or a toddler) speaking
+person learning English will simply say "he fell". This is obvious. Why?
+Because they do not know a lot of words or idioms. But with time and learning, they come to know all of these.</p><p>Also, having a huge bank of vocabularies is what separates a mediocre artist from a very good one. You listen and you
+smile.</p><blockquote><p>Vocabularies exist in all forms of creativity.</p></blockquote><p>The same concept applies to programming. As you learn, you should be picking up vocabularies to express your ideas.
+For example, say you learned how to use <code>for</code> loops to print numbers from 1 to 10, you can build on this <em>vocabulary</em>
+to print the multiples of 3. You could also use the idea to find something in an array/list. How? Can you try being
+creative?</p><p>So as you learn any concept in programming, pick it up as a vocabulary and try to imagine (or test) how you can be
+creative with it in a different scenario.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="failures-and-straight-lines">Failures and straight lines<a class="hash-link" href="#failures-and-straight-lines" title="Direct link to heading">​</a></h2><p>One thing beginners dread is failure.</p><p>If something goes wrong it's hard. It simply shows they're not smart to understand something somewhat obviously simple.
+This is a wrong mindset. Pick up a new natural language like French or Spanish for example. You'll experience this
+same kind of difficulty.</p><p>It's just natural for new things to feel difficult at first. Remember learning to ride a bike?</p><p>Failures are double-edged swords. On one side, they teach you how to not do something. On the other hand, <em>that way not
+to do something</em> is a way to do something else. At the end of the day, you learn something that can be used in future
+while trying to make things work.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="form-principles">Form principles<a class="hash-link" href="#form-principles" title="Direct link to heading">​</a></h2><p>Forming good principles around learning programming will help you become a good developer in the long term.
+These are things you can come up with by yourself with experience, but I'll share some of mine:</p><ul><li><p>Always reference official documentations first. It's tempting to be in a hurry and only search for direct answers
+from Stackoverflow. This is detrimental in the long run. Answers you find on Stackoverflow are mostly answers to
+common problems. As you advance, the probability of finding answers on Stackoverflow shrinks significantly
+(to almost zero). Learning to navigate through official docs will be your greatest asset.</p></li><li><p>Draw solutions in a notebook before attempting to code it. Being able to map out your thought process on paper
+tests your understanding of the problem and solution to use. Going to straight to your screen to brute-force your
+solution will lead you nowhere.</p></li><li><p>Be open-minded to different options to a tech. It's good to try out the options and understand what strengths and
+weaknesses they offer.</p></li></ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't ask for advice, ask for support]]></title>
+        <id>dont-ask-for-advice</id>
+        <link href="https://degreat.co.uk/blog/dont-ask-for-advice"/>
+        <updated>2022-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Probably sounds confusing. But this is the best advice you'll get. 😅]]></summary>
+        <content type="html"><![CDATA[<p>Probably sounds confusing. But this is the best <em>advice</em> you'll get. 😅</p><p>Weeks ago, a friend in the States reached out to me about choosing between a coding bootcamp (his father is willing to
+sponsor) and becoming an automotive 🏁 apprentice. A short background about my friend, Nick, is that he really likes cars.
+If you follow him on Instagram, you'll understand his obsession about sport cars especially. He just graduated from
+high school and is waiting to get into college.</p><p>In the meantime, he needs to spend his <em>vacation</em> wisely.</p><p>His dad, being totally convinced software engineering really pays, does not offer his sponsorship on the merit Nick's
+passion but for what he <em>imagines</em> is the right thing for Nick to do (for his future).</p><p>This places Nick in the position of having to defend his passion for cars or simply enrol into the bootcamp.</p><p><em>The automotive apprenticeship was free.</em></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="bias">Bias<a class="hash-link" href="#bias" title="Direct link to heading">​</a></h2><p>If you were in my shoes - having to respond/advise Nick, what would you tell him to do? Take a second to think about it.</p><p>Saying "Bro, do what you want" is not an option. It's equivalent to you saying nothing at all or if he never reached out.
+You've got to help him pick a side.</p><p>Without thinking much, this is easy. There are two options:</p><ul><li><p>I can use my experience and benefits as a software developer to make him choose what his dad is offering</p></li><li><p>I can use the passion that drove me into tech as an example for Nick to stick with his</p></li></ul><p>In either cases, there's bias. Bias from my own experiences. We (or I) can only speak of the world as we perceive it.
+But Nick is here for an answer God would give!</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="advisee">Advisee<a class="hash-link" href="#advisee" title="Direct link to heading">​</a></h2><p>We've all been in situations where we have to choose between <!-- -->[seemingly]<!-- --> equally balanced choices.
+In my experience, this happens when we're trying to apply logic all the way.
+But with the switch turned off on logic, we can choose.</p><p>What I'm trying to say is that we mostly do know what we want, but remain indecisive because we fear
+judgement or think we'll lose favor from people (who care about us) that had different expectations about us.</p><p>But when we ask advice for what to choose from other people (with the expectation of some magic words),
+we put them in a situation of overwhelming responsibility of our lives where when their suggestion goes wrong
+they're mostly to blame for (or carry the guilt).</p><p>Rather, can we ask for support? Can we ask for help with what we decide?</p><p>If it's for the fear of failing that we want a <!-- -->[supposedly]<!-- --> expert/neutral advice, what's the guarantee the
+advisor is going to be right?</p><p>Any advice given will still send you back dealing with stuff on your own. In such cases, it's easy to take <!-- -->[almost]<!-- -->
+all the credit when there's success or assign blame when there's a failure.</p><p>With support on the other hand, you're asking the person to help with the choice you've made.
+To chip in when they can. To share their resources and perspectives - all while keeping you in absolute control.
+In this case you don't leave the advisor worthless when you don't take their advice anyway.</p><blockquote><p>Not all advice are meant to be taken though. And advisors don't have to be disappointed.</p></blockquote><h2 class="anchor anchorWithStickyNavbar_mojV" id="advisor">Advisor<a class="hash-link" href="#advisor" title="Direct link to heading">​</a></h2><p>If you've been asked to help someone make a decision before, you can remember that you have always
+hesitated to give a direction. And even when you do, you keep highlighting how unsure you can be about
+a couple of stuff.</p><p>It's simply difficult.</p><p>And people don't take the advice anyway. Well, mostly!</p><p>Let's run a revolution. Let's ask <em>advisees</em> to choose and then offer our support.
+Let's not attempt to skew their judgement in any way.</p><p>This way feels like an invitation to truly help and to feel less guilty when things don't turn out right.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="support">Support<a class="hash-link" href="#support" title="Direct link to heading">​</a></h2><p>The idea I want to pass along is that lets not ask for advice (in most cases), because it's a very heavy burden on the
+advisor.</p><p>Asking for support means you're convicted in your choice and any form of help can really push you farther ahead.
+If you don't believe in a choice you're about to make, who will? If you're not going to go with what's advised, why ask?
+If the advisor wouldn't be there while you go through it, what's the point?</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What I told my younger brother on our way to admit him into SHS]]></title>
+        <id>advice-to-my-brother</id>
+        <link href="https://degreat.co.uk/blog/advice-to-my-brother"/>
+        <updated>2022-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Three weeks ago, I had to send my younger brother to boarding school. It was a long ride - almost 2 hours long.]]></summary>
+        <content type="html"><![CDATA[<p>Three weeks ago, I had to send my younger brother to boarding school. It was a long ride - almost 2 hours long.
+So that was an opportunity to plant some seed into his head.</p><p>I actually started off by stating that he didn't need to listen to me because normally,
+people know what they want and advice means nothing in a lot of cases. But I was going to talk anyway,
+and it's up to him to take it or leave it.</p><p>What did I say?</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="friendships-and-fun">Friendships and fun<a class="hash-link" href="#friendships-and-fun" title="Direct link to heading">​</a></h2><p>When I was in class 5, I had a friend who always talked about becoming an engineer.
+He would want to invent this or that. From my memory, I liked to listen to him.
+I had inspiration from a lot of stuff he used to say. Even though there were little to no access to
+engineering materials, my imagination became useful. I started having ideas too.
+I started drawing futuristic devices.</p><blockquote><p>Ideas came from Sci-fi movies too. I would pay attention to the cool stuff, draw them later and imagine
+the process it would involve to make them. (I knew zero about computers at this time - never held one.)</p></blockquote><p>I don't remember the name<sup>1</sup> of this friend of mine, but he was definitely smarter and more ambitious than I was.
+I don't know where he is right now but where I am now is evidence of the impact of having good friendships.</p><p>So I encouraged my brother to make good friends, especially with people better than him.
+There's this saying - <em>when you're among three idiots, you become the fourth idiot and if you're among 3 smart people,
+you become the fourth smart person</em>.</p><p>I also asked him to engage in sports, be competitive and always win. This is to boost his confidence by the time he's
+out of Senior High.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="leadership">Leadership<a class="hash-link" href="#leadership" title="Direct link to heading">​</a></h2><p>I wanted him to pick up leadership roles. I didn't give him any reason why he should but this was merely
+to teach him about being responsible.</p><p>Given that he was the class prefect for his class during Junior High School, I believe he has some
+leadership qualities, and I wanted him to nurture them.</p><blockquote><p>We need more leaders (or people with leadership qualities) in this country.</p></blockquote><h2 class="anchor anchorWithStickyNavbar_mojV" id="hard-work-and-integrity">Hard work and integrity<a class="hash-link" href="#hard-work-and-integrity" title="Direct link to heading">​</a></h2><p>I know he must have heard the controversy around the education system - going to school doesn't guarantee you'll get a
+job or even become successful. <em>I agree</em>. So it makes sense not to take school seriously.</p><p>But why should he? My brother (15 yo) does not run a business or take care of a family.
+He simply has to go through school, implying that he needs to study. </p><p>Now, since all he has to do is study, doing that well and passing his tests shows a sign of goodwill.
+It shows that given any situation he's going to give out his best and that being good at one thing translates
+into being good at many other things.</p><p>It shows that given another chance at something else, it'll be easier for me (or anybody else) to trust that he's going
+to excel.</p><p>I told him studying hard and doing well at school will create an image of integrity in the eyes of his colleagues
+and teachers, and he's going to be respected for that.</p><br><p>…</p><br><p>That's it. I hope these seeds fell on fertile soil.
+I've got high hopes for what/who he'll become after completing school. I wish him good luck.</p><hr><small><sup>1</sup> I vaguely remember he's called Prince.</small>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I should have written tests]]></title>
+        <id>i-should-have-written-tests</id>
+        <link href="https://degreat.co.uk/blog/i-should-have-written-tests"/>
+        <updated>2022-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As a freelancer working (solo mostly) on a number of gigs at the same time, the least interesting to do is to write]]></summary>
+        <content type="html"><![CDATA[<p>As a freelancer working (solo mostly) on a number of gigs at the same time, the least interesting to do is to write
+tests. That discipline is not worth the investment. It's an MVP, needs to be ready in two or three months.
+How does automated tests save me time ⏰?</p><p>This had been an <em>implicit reasoning</em><sup>1</sup> for me in the past. I understood it made sense to write
+them, but it takes a lot more hours to author them - when I could use that same time writing the rest of the features.
+What I used to do as a compromise is to write tests for a few critical features.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="functional-and-ok">Functional and OK<a class="hash-link" href="#functional-and-ok" title="Direct link to heading">​</a></h2><p>Now I designed these few <em>critical</em> tests in a way that if any broke, it could have been caused from many possible
+places. I labelled these tests as functional tests. For example, testing the login process, or an item upload, etc.</p><p>This is okay. <em>You can't tell me otherwise</em>. It's better than no <!-- -->[automated]<!-- --> tests at all. But the issue with
+functional tests from my experience is that it's easy to miss edge cases (or simply ignore them and focus
+on what should work). In fact, it's messy writing this type of tests because <em>arranging</em> the test takes long lines code.</p><p>Worse of all with this approach is that, it doesn't force you to arrange/structure your codebase properly. You have the
+freedom to make one function do <em>20 billion</em> different things.</p><p>Don't get me wrong. I understand separation of concerns, single responsibility, yiddih yaddah. You can know all these
+and still have a terrible codebase. You could <em>innocently</em> assume a logic needs to exist in source <code>A</code> but good testing
+techniques/discipline will have you extracting relevant code into separate sources.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="ui-test-ui">UI, test UI?<a class="hash-link" href="#ui-test-ui" title="Direct link to heading">​</a></h2><p>How do you expect me to write code for that when I'm already clicking around and testing <!-- -->[manually]<!-- --> already? What's
+going to take me by surprise? Yes, I also used to think like this.</p><p>Another reason I was convicted in not writing UI tests is that I imagined the setup and execution process will
+be overwhelming. Questions like doesn't the test framework have to spawn a browser or an emulator.
+Wouldn't it take a lot of time to run these tests.</p><p>Yes I had those questions as a way to confirm my bias. Therefore, I didn't want to bother finding answers.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="what-happened">What happened?<a class="hash-link" href="#what-happened" title="Direct link to heading">​</a></h2><p>I launched <a href="https://adeton.io" target="_blank" rel="noopener noreferrer">Adeton</a>.</p><p>That's what happened.</p><p>✅ Few functional tests.</p><p>✅ No UI tests.</p><p>The app was good. Worked <em>fl-</em>flawless. Few months in, all good; with the few bug fixes I was consistently making.
+Until I needed to update the pricing calculation. Until I needed change the shop deployment strategy.
+Until I needed to add theming capabilities. Until I needed to add <em>forgot password</em><sup>2</sup>.</p><p>What are the guarantees I had not broken another part of the app or the API while working on any of these? You can
+guess the answer to that.</p><blockquote><p>Had I known…</p></blockquote><h2 class="anchor anchorWithStickyNavbar_mojV" id="units">Units<a class="hash-link" href="#units" title="Direct link to heading">​</a></h2><p>It was when I joined my current company/workplace (<a href="https://varsitytutors.com" target="_blank" rel="noopener noreferrer">Varsity Tutors LLC</a>) that I got to
+experience the benefit of unit testing. It is required <!-- -->[over here]<!-- --> to test every single line of code and this was
+made sure by counting code coverage<sup>4</sup>.</p><p>I work primarily at the frontend, and we write tests for UI (geeezz 😬). I began to appreciate the effort for writing
+these tests. I spend time writing and testing a feature at a time, knowing well (almost guaranteed) that other
+existing tests will catch any breaking change I make.</p><p>The long term benefit is very huge. I don't have to test the whole application by hand to guarantee everything works
+perfectly just because I changed or added a few lines of code.</p><p>So around the whole of November and half of December last year, I spent my evenings rearranging and writing unit tests
+for the backend API of Adeton. My confidence level for this codebase has risen tremendously.
+About the frontend, it's still a work-in-progress.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="changes">Changes<a class="hash-link" href="#changes" title="Direct link to heading">​</a></h2><p>If you're in the habit of building building building, it's easy to dismiss automated tests. But software development,
+which is a vector of programming and time<sup>3</sup>, requires you to set up your code in a way that anticipates
+change.</p><p>One way to guarantee a safe/robust system after changes or upgrades is to put in place best testing practices like
+unit testing (primarily) in combination with other testing methods.</p><p>I'm changed. I treat tests as sacred now.</p><p>All the best!</p><hr><small><sup>1</sup> I made this term up to describe a case where the reason you do something hasn't been placed under logical scrutiny.</small><br><small><sup>2</sup> Yes Adeton shipped with no "Forgot Password" until about 4-5 months later. Haha. By then we had about 300 users.</small><br><small><sup>3</sup> I mean software development is a very dynamic process that involves lots of changes with time. It's not just about programming.</small><br><small><sup>4</sup> Definitely not manually. We use jest.</small>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delegation]]></title>
+        <id>delegation</id>
+        <link href="https://degreat.co.uk/blog/delegation"/>
+        <updated>2022-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Save money 💵 or save time. You can't save both.]]></summary>
+        <content type="html"><![CDATA[<p>Save money 💵 or save time. You can't save both.</p><p>I do a lot recently. I lead two active projects<sup>1</sup> part-time and have a full-time frontend developer role to
+deal with. Meanwhile, I have in the pipeline another startup I want to set up.
+And I like to try new stuff like experimenting.</p><p>My responsibilities are growing. But the size of the time to use remains the same every day - 24hours.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="past-attempts">Past attempts<a class="hash-link" href="#past-attempts" title="Direct link to heading">​</a></h2><p>In the past, I used to cut out social activities as an attempt to charge my focus on doing more and avoid distractions.
+For the many times that I've tried this, I burn out after a few weeks.
+Leaving me useless for a number of days; having me to gather momentum again.</p><p>I've also attempted to cut down what I do. But this means I only have to focus on my full-time job and one other
+activity (could be a side-project or another gig).
+<em>Three is a lot!</em> But the secondary activity can mostly grow to the size of my full-time job bringing
+me back to square one (doing a lot).</p><blockquote><p>This could be me not being able to relax. Hopefully, it's not a medical condition. 😅</p></blockquote><p>I have been very experimental in ways to do more and still have enough time for personal and social activities.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="eureka">Eureka<a class="hash-link" href="#eureka" title="Direct link to heading">​</a></h2><p>Earlier last week, I was having a conversation with my partner on a project. I had to complete a 3D model.
+I had started to work on this project many weeks ago but couldn't get back to it. I had also promised to be making
+incremental
+changes. But other stuff were competing for my attention <em>(and they mostly won)</em>.</p><p>Now, it was time to answer "How far?". I had to be honest.</p><p>During the discussion, it just hit me I could hire someone on Fiverr to do this job.
+I should have thought about that; if only I knew the concept of <strong>delegation</strong>. If only I had
+it as one of my productivity techniques - we would have progress by now.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="what-its-worth">What it's worth<a class="hash-link" href="#what-its-worth" title="Direct link to heading">​</a></h2><blockquote><p>An average of about $300 for a freelance 3d artist.</p></blockquote><p>Is it worth delegating? I know a little much about modeling<sup>2</sup>.
+But it'll take me weeks of intermittent progress to complete this job. On aggregate, I could average spending about
+10-12 hours on it.</p><p>An expert could spend a week (aggregate 6 hours) on it. And even apply best practices.
+Paying $300 for this job will require me to work 6 hours<sup>2</sup> on my full-time job to make up for it. So let's
+compare!</p><p>I do it myself; spend 10 hours and lose 500$ (worth of productivity) from my full-time job.
+Which means I'll be paying out of my pocket (say, money made from past work).
+(And less likely to have production-ready quality)</p><p>I delegate; I get (most probably, better) results in a sooner time, lose $300 but this money will be made while the work
+was being done.</p><blockquote><p>I acknowledge that delegating does not always guarantee a good work will be done (without supervision).</p></blockquote><h2 class="anchor anchorWithStickyNavbar_mojV" id="is-it-worth-it">Is it worth it?<a class="hash-link" href="#is-it-worth-it" title="Direct link to heading">​</a></h2><p>You can only judge after you get any result.</p><p>I think finding the right person to delegate a job to is critical to getting what's worth.
+And you'll have to come up with methods to perform due diligence against candidates.</p><p><em>This is more like choosing your poison. (On many phases - whether to delegate and to whom)</em></p><p>But I'm going to close this thought with a quote from John C. Maxwell:</p><blockquote><p>"If you want to do a few small things right, do them yourself. If you want to do great things and make a big impact, learn to delegate."</p></blockquote><hr><small><sup>1</sup> One being Adeton; my startup project. Another being Trot; a transport startup project. </small><br><small><sup>2</sup> Find some of my artworks here at <a href="https://artstation.com/degreat" target="_blank" rel="noopener noreferrer">Artstation</a> </small><br><small><sup>3</sup> $50/hour is my rate currently.</small>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remote work and the possibilities for youths in developing countries]]></title>
+        <id>remote-work-developing-countries</id>
+        <link href="https://degreat.co.uk/blog/remote-work-developing-countries"/>
+        <updated>2022-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Early 2020 I quit my on-site full-time developer role to become a freelancer.]]></summary>
+        <content type="html"><![CDATA[<p>Early 2020 I quit my on-site full-time developer role to become a freelancer.
+Freelancing is the closest to what remote work is about.
+Mid 2021, I applied and got into <a href="https://andela.com" target="_blank" rel="noopener noreferrer">Andela</a> and was assigned my first contract.
+In this blog post, I aim to share my experience and what it means for developers interested in remote/offshore
+opportunities.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="2020">2020<a class="hash-link" href="#2020" title="Direct link to heading">​</a></h2><p>This is when I went full-time freelancing.
+I was on a stable gig that lasted almost a year and also picked up a couple of other short term gigs.
+Most of the time during this period I was shuffling through at most 2 gigs at the same time.
+Without revealing any specifics, I was basically doing fine financially, but I was hurting mentally.</p><p>Constantly having to <em>context-switch</em> between projects. Keeping up with deadlines while trying to have a life for
+myself.</p><blockquote><p>"…life for myself" means playing Fortnite<sup>1</sup> 🙈</p></blockquote><p>Freelancing is great. You demand/negotiate your worth. Often in multiples your full-time job's equivalent.
+You define the scope, budget the time and resources. In short, you're the boss.</p><p>But freelancing also places you in the state of <em>survival</em>.
+That is, since you are never sure of a constant supply of clients, you have two options: charge more - limited client
+pool <em>or</em> charge less - unlimited client pool.</p><p><strong>I charged more</strong> and provided very quality services besides just <em>code</em>.
+But I also ended up with clients that are fresh <em>techpreneurs</em>.
+Dealing with them was very overwhelming even though I was mostly educating and providing insights.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="2021">2021<a class="hash-link" href="#2021" title="Direct link to heading">​</a></h2><p>Part of this year's resolution was to quit freelancing, build and launch my startup (<a href="https://adeton.io" target="_blank" rel="noopener noreferrer">Adeton</a>), then
+prepare to interview at Google.</p><p>I lived off some savings during the first quarter while working on Adeton. I was beginning to run low on cash.
+So I was like <em>dammit</em>, I'm going to apply for <a href="https://andela.com" target="_blank" rel="noopener noreferrer">Andela</a><sup>2</sup> and hopefully get a fulltime job
+then prepare for Google later.</p><p>It was until over a month I got matched with a company.</p><p>I was going to be making lots of money. Lots, when I saw my offer.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="work-scope">Work scope<a class="hash-link" href="#work-scope" title="Direct link to heading">​</a></h2><p>Now this was the first time I was working for a company this huge. Had a sweet onboarding experience.
+And work was being cut for me. I had tickets with clear descriptions to tackle. So what?</p><p>So I'm going to say, compared to my freelancing experience, I was working a very small fraction but earning a huge
+multiple. My life was never the same. Now I had more focus, time and <em>money</em>.<sup>3</sup></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="my-life">My life<a class="hash-link" href="#my-life" title="Direct link to heading">​</a></h2><p>This opportunity really opened my eyes to the possibilities of remote work. I thank God for the birth of this concept.
+How am I (located in Ghana 🇬🇭) able to work across the Pacific Ocean and have an impact on the lives of millions in
+another region?
+It's just so amazing.</p><p>I have also been able to save a lot and can also afford a lot of things I want. I'm also able to support my family.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="what-does-it-mean-to-you">What does it mean to you?<a class="hash-link" href="#what-does-it-mean-to-you" title="Direct link to heading">​</a></h2><p>I have a few ideas.</p><p>Tech opportunities in developing countries aren't lucrative.
+Mostly because founders struggle to fund the business and lack proper management and compensation schemes.</p><p>Also, there aren't a lot of companies that offer growth opportunities.</p><p>Without the knowledge of remote work <em>and what it can offer like good working environment and networking opportunities</em>,
+you'll be left scrambling for the next better option in your country which is just an iota of difference with the previous
+opportunity.</p><p>Now, for a lot of us, we learned this trade by unconventional means. We can code, very well. Mostly from scratch.
+But we have never seen codebases of larger organizations. How to architect and build dynamic services. How to handle
+user data. How to deal with tech debts, etc.</p><p>Luckily, big organizations are offering remote opportunities. This is the chance. Take it!</p><hr><small><sup>1</sup> I don't play Fortnite anymore.</small><br><small><sup>2</sup> This decision may have been partly influenced by a tweet I saw. I can't remember clearly.</small><br><small><sup>3</sup> I was also commended by my lead to have exceeded expectations on delivery.</small>]]></content>
+    </entry>
+</feed>
