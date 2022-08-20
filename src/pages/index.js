@@ -12,7 +12,7 @@ function HomepageHeader() {
               source stuff.
               <br/> <br/>
               <span className="home-title__meta">
-                I sometimes create 3d artworks and play 🎮 FIFA a lot recently.
+                I sometimes create 3d artworks and play 🎮 FIFA on weekends.
                 My dream is to be an inspiration to a lot of people in my
                 country 🇬🇭.
               </span>
