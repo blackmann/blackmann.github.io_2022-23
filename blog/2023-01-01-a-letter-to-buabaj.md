@@ -6,6 +6,8 @@ tags: []
 
 # A letter to buabaj_
 
+<!--truncate-->
+
 > I’ve been saying same. No other country can give you the opportunity to make history than in Ghana.
 > When a lot of us realize this, we’ll begin to have a turn around…
 
