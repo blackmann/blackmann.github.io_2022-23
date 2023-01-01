@@ -8,13 +8,13 @@ function HomepageHeader() {
         <div className="row">
           <div className="col col--8">
             <h1 className="home-title">
-              Javascript and Go developer building beautiful user experiences and️ doing some open
-              source stuff.
-              <br/> <br/>
+              Javascript and Go developer building beautiful user experiences
+              and️ doing some open source stuff.
+              <br /> <br />
               <span className="home-title__meta">
-                I sometimes create 3d artworks and play 🎮 FIFA on weekends.
-                My dream is to be an inspiration to a lot of people in my
-                country 🇬🇭.
+                I sometimes create 3d artworks and play 🎮 FIFA on weekends. My
+                dream is to be an inspiration to a lot of people in my country
+                🇬🇭.
               </span>
             </h1>
           </div>
@@ -27,7 +27,7 @@ function HomepageHeader() {
 export default function Home() {
   return (
     <Layout title="Home" description="Javascript and Go developer">
-      <HomepageHeader/>
+      <HomepageHeader />
       <main>
         <div className="container">
           <section>
@@ -39,27 +39,24 @@ export default function Home() {
               <div className="col col--8">
                 <div className="row">
                   <div className="col col--6 margin-bottom--lg">
-                    <h3 className="sub-title">aaccraa</h3>
+                    <h3 className="sub-title">sawside</h3>
 
                     <p className="p-large">
-                      Connecting strangers and building real connections with live video.
+                      Make friends when you go to the cafe, shopping mall,
+                      subway, church or arrive at an airport.
+                    </p>
+
+                    <p>
+                      Developed during the Christmas holidays with SwiftUI for
+                      iOS and NodeJS for backend.
                     </p>
 
                     <p className="p-large">
-                      Spent a weekend on this proof-of-concept. Deployed midweek and had a surge of 1000 unique visitors
-                      in the first 24 hours.
-                    </p>
-
-                    <p className="p-large">
-                      <a
-                        className="hover-underline"
-                        href="https://aaccraa.com/?source=degreat.co.uk"
-                      >
-                        aaccraa.com
+                      <a className="hover-underline" href="https://sawside.com">
+                        sawside.com
                       </a>
                     </p>
                   </div>
-
 
                   <div className="col col--6">
                     <h3 className="sub-title">Adeton</h3>
@@ -67,7 +64,7 @@ export default function Home() {
                     <p className="p-large">
                       This is a SaaS project I developed; an e-commerce enabler.
                       Think Shopify but tailored for the Ghanaian<sup>1</sup>{' '}
-                      merchant. Currently hosting over 700 shops and processing
+                      merchant. Currently hosting over 900 shops and processing
                       tens of orders a week.
                     </p>
 
@@ -78,6 +75,30 @@ export default function Home() {
                     <p className="p-large">
                       <a className="hover-underline" href="https://adeton.io">
                         Visit homepage
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="col col--6 margin-bottom--lg">
+                    <h3 className="sub-title">aaccraa</h3>
+
+                    <p className="p-large">
+                      Connecting strangers and building real connections with
+                      live video.
+                    </p>
+
+                    <p className="p-large">
+                      Spent a weekend on this proof-of-concept. Deployed midweek
+                      and had a surge of 1000 unique visitors in the first 24
+                      hours.
+                    </p>
+
+                    <p className="p-large">
+                      <a
+                        className="hover-underline"
+                        href="https://aaccraa.com/?source=degreat.co.uk"
+                      >
+                        aaccraa.com
                       </a>
                     </p>
                   </div>
@@ -108,11 +129,11 @@ export default function Home() {
                 </div>
 
                 <footer className="container margin-top--xl">
-                  <p className="margin-bottom--none" style={{color: '#888'}}>
+                  <p className="margin-bottom--none" style={{ color: '#888' }}>
                     <sup>1</sup> The Ghanaian market is a tough one. My
                     perspectives have gotten the best of alignments.
                   </p>
-                  <p className="margin-bottom--none" style={{color: '#888'}}>
+                  <p className="margin-bottom--none" style={{ color: '#888' }}>
                     <sup>2</sup> We only charge order processing fees at 5%.
                     Meaning, we make money when merchants do.
                   </p>
@@ -130,8 +151,8 @@ export default function Home() {
               <div className="row">
                 <div className="col col--6">
                   <p className="p-large">
-                    I currently specialize in Frontend Development with React. And use Go to build fast and realtime
-                    backend services.
+                    I currently specialize in Frontend Development with React.
+                    And use Go to build fast and realtime backend services.
                   </p>
 
                   <p className="p-large">
@@ -156,12 +177,12 @@ export default function Home() {
                           <p className="p-large margin-bottom--none">Go</p>
                         </li>
                         <li>
-                          <p className="p-large margin-bottom--none divide">Dart</p>
+                          <p className="p-large margin-bottom--none divide">
+                            Dart
+                          </p>
                         </li>
                         <li>
-                          <p className="p-large margin-bottom--none ">
-                            Python
-                          </p>
+                          <p className="p-large margin-bottom--none ">Python</p>
                         </li>
                         <li>
                           <p className="p-large margin-bottom--none">Kotlin</p>
@@ -212,7 +233,7 @@ export default function Home() {
               </div>
 
               <footer className="container margin-top--xl">
-                <p className="margin-bottom--none" style={{color: '#888'}}>
+                <p className="margin-bottom--none" style={{ color: '#888' }}>
                   <sup>1</sup> I tried to learn Rust 🦀. Oh boy, sh*t is crazy.
                   Perhaps a comeback! But I managed to create static{' '}
                   <a href="https://github.com/blackmann/home-archive-2022-01/tree/master/tools/myjekyllripoff">
@@ -237,7 +258,7 @@ export default function Home() {
                     loading="lazy"
                   />
                   <p>R&D: Donuts Galaxy</p>
-                  <p style={{color: '#888'}}>
+                  <p style={{ color: '#888' }}>
                     An attempt to clone{' '}
                     <a href="https://ilithya.rocks">ilithya.rocks</a> homepage
                     after completing the first chapter of threejs journey
@@ -255,14 +276,14 @@ export default function Home() {
                 </div>
 
                 <div className="col col--6 margin-bottom--lg">
-                  <img src="/img/ozark.jpg" alt="Ozark" loading="lazy"/>
+                  <img src="/img/ozark.jpg" alt="Ozark" loading="lazy" />
                   <p>TV Show: Ozark</p>
-                  <p style={{color: '#888'}}>
+                  <p style={{ color: '#888' }}>
                     Yerr, I'm done! I nominate this TV series as the one of the
                     few best TV shows ever (👀 Breaking Bad). It's a 💯.
                   </p>
 
-                  <p style={{color: '#888'}}>
+                  <p style={{ color: '#888' }}>
                     Ruth Langmore was my favorite and Marty Byrd was some cool
                     guy.
                   </p>
@@ -273,10 +294,10 @@ export default function Home() {
                     src="/videos/robo-out.mp4"
                     loop
                     autoPlay
-                    style={{width: '100%'}}
+                    style={{ width: '100%' }}
                   />
                   <p>3D & Render: Robo Fight</p>
-                  <p style={{color: '#888'}}>
+                  <p style={{ color: '#888' }}>
                     Bored Blender Render. Rigging done with Mixamo. How do you
                     rate my lighting?
                   </p>
@@ -300,7 +321,7 @@ export default function Home() {
             <div className="col col--8">
               <div className="row">
                 <div className="col col--6">
-                  <h3 style={{color: '#888'}}>Meet</h3>
+                  <h3 style={{ color: '#888' }}>Meet</h3>
 
                   <ul>
                     {[
@@ -329,7 +350,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="col col--6">
-                  <h3 style={{color: '#888'}}>Visit</h3>
+                  <h3 style={{ color: '#888' }}>Visit</h3>
                   <ul>
                     {[
                       'Northern Region (Ghana)',
@@ -343,7 +364,7 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <h3 style={{color: '#888'}}>Try</h3>
+                  <h3 style={{ color: '#888' }}>Try</h3>
                   <ul>
                     {[
                       'Skateboarding 🛹',
